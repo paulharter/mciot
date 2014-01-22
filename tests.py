@@ -11,8 +11,7 @@ class ServerTests(unittest.TestCase):
         pass
 
     def test_players(self):
-        players = self.server.query()
-        print players
-
+        players = self.server.query()["players"]
+        
     def test_rcon(self):
         self.server.run_command("say hello")
