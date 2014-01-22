@@ -1,0 +1,6 @@
+[submodule "mcstatus"]
+	path = mcstatus
+	url = https://github.com/Dinnerbone/mcstatus.git
+[submodule "mcrcon"]
+	path = mcrcon
+	url = https://github.com/barneygale/MCRcon.git
