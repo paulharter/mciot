@@ -8,6 +8,15 @@ git submodule init
 
 git submodule update
 
+Usage
+------
+
+server = mciot.ServerConnection("localhost", "password")
+
+server.run_command("kill paulharter")
+
+players = server.query()["players"]
+
 
 Server Properties
 -----------------
